@@ -5,7 +5,8 @@ let condition = true;
 while(condition){   
 
 let addtask = await inquirer.prompt(
-   [   {
+   [  
+       {
          name: 'todo',
          type:'input',
          message: 'What do you want to add?',
